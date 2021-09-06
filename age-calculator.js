@@ -1,7 +1,8 @@
-function ageCalculator(name,yearOfBirth,currentYear){
+function ageCalculator(name, yearOfBirth, currentYear) {
   //age calc
-  let yourAge = (currentYear - yearOfBirth)
-    return yourAge;
+  const yourAge = (currentYear - yearOfBirth)
+  const resString = name + " is " + yourAge + " years old."
+  return resString;
 }
-console.log(name +"is " + yourAge + "years old.")
+
 console.log(ageCalculator("Miranda", 1983, 2015));
